@@ -1,11 +1,17 @@
 <template>
-  <h2>Teste</h2>
+<v-app>
+  <v-main>
+      <router-view/>
+  </v-main> 
+</v-app>
 </template>
 
 <script>
 export default {
-  
-}
+  name: "App" //,
+  // components: {
+  //   AppTopBar,
+  }
 </script>
 
 <style>
